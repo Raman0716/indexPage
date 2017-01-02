@@ -25,11 +25,11 @@
 			</div>
 			<div class="navbar-collapse collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-left">
-					<li class="active"><a href="index.html"><span> 比赛介绍 </span></a></li>
+					<li><a href="index.html"><span> 比赛介绍 </span></a></li>
 					<li><a href="process.html"><span> 赛制流程 </span></a></li>
 					<li><a href="datalist.html"><span> 数据集 </span></a></li>
 					<li><a href="commit.html"><span> 提交结果 </span></a></li>
-					<li><a href="rank.html"><span> 排行榜 </span></a></li>
+					<li class="active"><a href="rank.html"><span> 排行榜 </span></a></li>
 					<li><a href="QandA.html"><span> F&Q </span></a></li>
 					<li><a href="jury.html"><span> 大赛评委 </span></a></li>
 				</ul>
@@ -57,7 +57,7 @@
 					<a href="#" class="text-primary" data-dismiss="modal" data-toggle="modal" data-target="#register-box">没有用户，我要注册</a>
 				</div>
 			</div>
-		</div>
+		</div>>
 	</div>
 	<div class="modal fade" id="register-box" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog">
@@ -76,9 +76,8 @@
 					<a href="#" class="text-primary" data-dismiss="modal" data-toggle="modal" data-target="#login-box">已有账户，我要登录</a>
 				</div>
 			</div>
-		</div>>
+		</div>
 	</div>
-	<img src="icon/background.png" style="width:100%" alt="首页大图">
 	<div class="container">
 		<div class="row top">
 			<div class="col-md-9 col-sm-9 col-xs-12 time-line">
@@ -111,11 +110,16 @@
 			</div>
 		</div>
 		<ul class="stage">
-			<li class="stage-item">
-				<p>
-					<h4>赛题介绍</h4></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
-					nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget</p>
+			<li class="stage-item text-center">
+				<div class="col-md-4">
+					<h4>我的队伍目前在第 <span class="text-primary">5</span></h4>
+				</div>
+				<div class="col-md-3">
+					<h4><span class="text-primary">5</span> 次成功提交</h4>
+				</div>
+				<div>
+					<h4>最近更新时间 <span class="text-primary">2017-01-01 11:39:35</span></h4>
+				</div>
 			</li>
 			<li class="stage-item">
 				<p>
@@ -123,82 +127,34 @@
 				<div class="table-responsive">
 					<table class="table table-bordered text-center">
 						<thead>
-							<td>奖项名称</td>
-							<td>奖金设置</td>
-							<td>队伍数量</td>
-							<td>备注</th>
+							<td>头像</td>
+							<td>排名</td>
+							<td>排名变化</td>
+							<td>队名</th>
+								<td>最高得分</th>
+									<td>提交次数</th>
+										<td>最后提交时间</th>
 						</thead>
 						<tr>
 							<td><img src="icon/First Filled.png">冠军</td>
-							<td>50,000 RMB</td>
 							<td>1</td>
-							<td>&nbsp;</td>
+							<td><img src="icon/Arrow Up.png" alt=""></td>
+							<td>炸弹人董存瑞</td>
+							<td>85</td>
+							<td>5</td>
+							<td></td>
 						</tr>
 						<tr>
-							<td><img src="icon/Second Filled.png">亚军</td>
-							<td>30,000 RMB</td>
+							<td><img src="icon/First Filled.png">冠军</td>
 							<td>2</td>
-							<td>&nbsp;</td>
-						</tr>
-						<tr>
-							<td><img src="icon/Third Filled.png">季军</td>
-							<td>10,000 RMB</td>
+							<td><img src="icon/Arrow Down.png" alt=""></td>
+							<td>杰森·郭坦森</td>
+							<td>50</td>
 							<td>3</td>
-							<td>&nbsp;</td>
+							<td></td>
 						</tr>
 					</table>
 				</div>
-			</li>
-			<li class="stage-item">
-				<p>
-					<h4>参赛对象</h4></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
-					nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
-			</li>
-			<li class="stage-item">
-				<p>
-					<h4>参赛规则</h4></p>
-				<ol>
-					<li>
-						<p>参赛团队参加任何一个算法资格赛初赛即认定报名成功。</p>
-					</li>
-					<li>
-						<p>参赛团队选择了其中某个行业进行应用创新，就需攻克对应行业的算法资格赛，资格赛和创新应用简介所在行业需保持一致，若参加了金融资格赛，但提交的是教育创新应用简介，将无法晋级复赛。</p>
-					</li>
-					<li>
-						<p>初赛参与多个资格赛的团队，需在初赛截至日期前明确一个应用方向（交通、教育、金融）提交创新应用简介，若在多个资格赛中提交了创新应用简介，则以参赛团队最后一次提交的创新应用简介为准，团队组成也以此资格赛中的人员组成为准。</p>
-					</li>
-					<li>
-						<p>所有参赛团队需在大赛初赛截至前3天，竞赛平台上完成报名参赛，截至日期前3天，报名组队功能将关闭。进入复赛阶段后，每人仅允许参与一支队伍。</p>
-					</li>
-					<li>
-						<p>为保证比赛的公平性，参赛团队提交作品时提交的帐号需进行实名认证（DataCastle通用规则）。大赛组织方承诺个人信息仅用于赛事数据授权与奖金发放，对其中所有涉及个人隐私的内容予以保密。（引用DataCastle)</p>
-					</li>
-				</ol>
-			</li>
-			<li class="stage-item">
-				<p>
-					<h4>组队规则</h4></p>
-				<ol>
-					<li>
-						<p>团队人数上限5人</p>
-					</li>
-					<li>
-						<p>在第一阶段的最后3天无法新建队伍，但是可以加入其它队伍。</p>
-					</li>
-					<li>
-						<p>在最后一个阶段最后3天无法新建队伍，无法加入队伍。</p>
-					</li>
-					<li>
-						<p>竞赛进入历史阶段后解除一切限制，注意：答辩队伍成员仅限活跃期间加入的成员。（引用DataCastle)</p>
-					</li>
-				</ol>
-			</li>
-			<li class="stage-item">
-				<p>
-					<h4>比赛声明</h4></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes,
-					nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
 			</li>
 		</ul>
 

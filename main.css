@@ -1,0 +1,109 @@
+body{
+  font-size: 14px;
+  color:#b2b4b7;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, sans-serif;
+}
+.navbar{
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+input{
+  border-radius: 0.4rem;
+}
+.table>tbody>tr>td{
+  vertical-align: middle;
+}
+.table-bordered{
+  border-radius: 4rem;
+}
+#hiddenBox{
+  z-index: 123;
+}
+.modal{
+  top:4rem;
+}
+.modal-body>li{
+  list-style: none;
+}
+.modal-body>li>span{
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 9rem;
+}
+.center {
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.time-line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  height: 1rem;
+  border-bottom: 1rem solid #389bef;
+  border-radius: 0.4rem;
+}
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  background-color: #389bef;
+  border: 1px solid #389bef;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.summary{
+  font-size: 1.8rem;
+}
+.list-group-item{
+  border: none;
+}
+.stage{
+  border: 1px solid #e5e7eb;
+  border-radius: 0.4rem;
+  padding: 0 2rem;
+}
+.stage-item{
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  list-style: none;
+}
+.media{
+  line-height: 4rem;
+}
+.media>.pull-left>.media-object{
+  height: 5rem;
+  width: 5rem;
+}
+@media only screen and (max-width:481px) {
+.top{
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+  .circle{
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 1.8rem;
+    font-size: 1.4rem;
+  }
+  .summary{
+    font-size: 1.4rem;
+  }
+}
