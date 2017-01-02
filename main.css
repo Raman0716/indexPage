@@ -72,11 +72,6 @@ input{
   justify-content: flex-end;
   float: left;
 }
-.summary{
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.8rem;
-}
 .list-group-item{
   border: none;
 }
