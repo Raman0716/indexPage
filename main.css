@@ -1,6 +1,8 @@
 body{
   font-size: 14px;
-  color:#b2b4b7;
+  font-size: 1.4rem;
+  color:#444;
+  line-height: 2.2rem;
 	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, sans-serif;
 }
 .navbar{
@@ -37,6 +39,7 @@ input{
   margin-right: auto;
 }
 .top{
+  margin-left: 5px;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -66,10 +69,12 @@ input{
 .join{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   float: left;
 }
 .summary{
+  display: flex;
+  justify-content: space-between;
   font-size: 1.8rem;
 }
 .list-group-item{
@@ -92,10 +97,19 @@ input{
   height: 5rem;
   width: 5rem;
 }
+@media only screen and (max-width:768px){
+  .join{
+    justify-content: center;
+  }
+  .top{
+    margin-right: 2px;
+  }
+}
 @media only screen and (max-width:481px) {
 .top{
   padding-top: 2.5rem;
   padding-bottom: 1.5rem;
+  margin: 0;
 }
   .circle{
     width: 3.6rem;
