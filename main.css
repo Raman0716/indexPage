@@ -41,13 +41,13 @@ input{
 .top{
   margin-left: 5px;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 .time-line{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   height: 1rem;
   padding-left:0;
   padding-right:0;
@@ -71,6 +71,7 @@ input{
 .join{
   display: flex;
   align-items: center;
+  margin-top: -1rem;
   justify-content: flex-end;
   float: left;
 }
