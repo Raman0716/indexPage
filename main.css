@@ -68,6 +68,12 @@ input{
   color: #fff;
   font-size: 1.8rem;
 }
+}
+.btn-primary {
+    color: #fff;
+    background-color: #389bef;
+    border-color: #389bef;
+}
 .join{
   display: flex;
   align-items: center;
